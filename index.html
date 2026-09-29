@@ -5,21 +5,30 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>RAF Specialty Coffee</title>
 <meta name="description" content="Specialty coffee bar. Open every day from 7 AM across five branches in Cairo.">
-<link rel="icon" href="img/raf-logo.jpg">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta name="theme-color" content="#1D3B2B">
 <link rel="stylesheet" href="fonts.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <a class="sr" href="#main">Skip to content</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.4"/></symbol>
+<symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="i-cup" viewBox="0 0 24 24"><path d="M5 9h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5V9Z"/><path d="M16 10.5h1.5a2.5 2.5 0 0 1 0 5H16"/><path d="M8 4c0 1.2 1 1.2 1 2.4M12 4c0 1.2 1 1.2 1 2.4"/></symbol>
+</defs></svg>
 <header class="top">
-<a class="logo" href="index.html" aria-label="RAF Specialty Coffee, home"><img src="img/raf-mark-white.png" alt="RAF" width="46" height="34"></a>
+<a class="logo" href="index.html" aria-label="RAF Specialty Coffee, home"><img src="img/raf-mark-plaster.svg" alt="RAF" width="56" height="36"></a>
 <nav aria-label="Main"><a href="index.html" aria-current="page">Home</a><a href="menu.html">Menu</a><a href="branches.html">Branches</a></nav>
 <span class="sp"></span>
-<a class="btn" href="https://www.talabat.com/egypt/raf-specialty-coffee" target="_blank" rel="noopener">Order</a>
+<a class="btn" href="https://www.talabat.com/egypt/raf-specialty-coffee" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-bag"/></svg>Order</a>
 <button class="burger" aria-label="Open menu" aria-expanded="false"><span></span></button>
 </header>
 <div class="drawer" role="dialog" aria-modal="true" aria-label="Menu">
-<div class="row"><img src="img/raf-mark-white.png" alt="RAF" width="46" height="34" style="height:34px;width:auto"><button class="x" aria-label="Close menu">&times;</button></div>
+<div class="row"><img src="img/raf-mark-plaster.svg" alt="RAF" width="56" height="36" style="height:36px;width:auto"><button class="x" aria-label="Close menu">&times;</button></div>
 <nav aria-label="Mobile">
 <a href="index.html">Home</a><a href="menu.html">Menu</a><a href="branches.html">Branches</a>
 </nav>
@@ -27,7 +36,7 @@
 </div>
 <main id="main">
 <div class="hero">
-<div class="photo"><img src="img/photo-08.jpg" alt="RAF storefront with its curved oak-slatted facade under a blue sky" width="360" height="640">
+<div class="photo"><img src="img/photo-03.jpg" srcset="img/photo-03-720.jpg 720w, img/photo-03.jpg 1200w" sizes="(min-width:760px) 520px, 100vw" alt="A barista in a green RAF t-shirt pouring filter coffee into a green RAF cup" width="1200" height="1600" fetchpriority="high" decoding="async">
 <div class="slats" aria-hidden="true"><i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i><i style="--i:4"></i><i style="--i:5"></i><i style="--i:6"></i><i style="--i:7"></i><i style="--i:8"></i><i style="--i:9"></i></div></div>
 <div class="copy">
 <h1 data-greet>Morning, Raffers.</h1>
@@ -40,12 +49,12 @@
 <h2>On the bar</h2>
 <p class="sub">Cold coffee, hot cups and something to eat with them. Tap a card to jump to it.</p>
 <div class="cards">
-<a class="pc" href="menu.html#cold"><img src="img/photo-07.jpg" alt="Two iced drinks in RAF cups" width="640" height="640" loading="lazy"><h3>Cold</h3><p>Iced lattes, frappes, Honey Buzz</p></a>
-<a class="pc" href="menu.html#hot"><img src="img/photo-03.jpg" alt="Barista pouring filter coffee into a RAF cup" width="480" height="640" loading="lazy"><h3>Hot</h3><p>Matcha, peanut butter latte, tea</p></a>
-<a class="pc" href="menu.html#bites"><img src="img/photo-04.jpg" alt="Sandwich on an oak tray" width="480" height="640" loading="lazy"><h3>Bites &amp; sweet</h3><p>Sandwiches, eclairs and tarts</p></a>
+<a class="pc" href="menu.html#cold"><img src="img/photo-06.jpg" alt="A woman reading with a red iced drink in a RAF cup" width="1086" height="1448" loading="lazy" decoding="async"><h3>Cold</h3><p>Iced lattes, frappes, Honey Buzz</p></a>
+<a class="pc" href="menu.html#hot"><img src="img/photo-10.jpg" alt="Pour-over dripper and server on an oak tray" width="1200" height="1500" loading="lazy" decoding="async"><h3>Hot</h3><p>Matcha, peanut butter latte, tea</p></a>
+<a class="pc" href="menu.html#bites"><img src="img/photo-04.jpg" alt="Bagel sandwich on an oak tray" width="1200" height="1600" loading="lazy" decoding="async"><h3>Bites &amp; sweet</h3><p>Sandwiches, eclairs and tarts</p></a>
 </div></div></section>
 <section class="band"><div class="wrap two">
-<img src="img/photo-10.jpg" alt="Pour-over set on an oak tray" width="512" height="640" loading="lazy">
+<img src="img/photo-07.jpg" alt="Two iced drinks in RAF cups printed with Today's mood, engineered by RAF" width="1200" height="1200" loading="lazy" decoding="async">
 <div><h2>Today's mood, engineered by RAF.</h2>
 <p class="sub">It is printed on the cups. Pick the mood, the bar does the rest.</p>
 <div class="cta-row"><a class="btn" href="menu.html">Pick your mood</a></div></div>
@@ -54,14 +63,14 @@
 <h2>Five branches, one Raf</h2>
 <p class="sub">From Zayed to Maadi. Drive-thru option at New Cairo and Zayed.</p>
 <div class="br">
-<div class="brow"><img src="img/photo-09.jpg" alt="RAF storefront" width="200" height="130" loading="lazy"><div><h3>Zed Park</h3><p>Gate 03, Zed Park, Sheikh Zayed</p></div><a class="btn line" href="https://maps.app.goo.gl/PTEWyUyP9gKkPRDW9?g_st=com.google.maps.preview.copy" target="_blank" rel="noopener" aria-label="Directions to RAF Zed Park">Directions</a></div>
-<div class="brow"><img src="img/photo-02.jpg" alt="RAF storefront" width="200" height="130" loading="lazy"><div><h3>Arabella</h3><p>Arabella Plaza Mall, New Cairo</p></div><a class="btn line" href="https://maps.app.goo.gl/kkiCXbD1SZbp9gvc9?g_st=iw" target="_blank" rel="noopener" aria-label="Directions to RAF Arabella">Directions</a></div>
-<div class="brow"><img src="img/photo-08.jpg" alt="RAF storefront" width="200" height="130" loading="lazy"><div><h3>KOV Mall</h3><p>KOV Mall, New Cairo</p></div><a class="btn line" href="https://maps.app.goo.gl/p1Vdpnx9SvE4T423A?g_st=com.google.maps.preview.copy" target="_blank" rel="noopener" aria-label="Directions to RAF KOV Mall">Directions</a></div>
+<div class="brow"><img src="img/photo-09.jpg" alt="RAF storefront" width="200" height="130" loading="lazy"><div><h3>Zed Park</h3><p>Gate 03, Zed Park, Sheikh Zayed</p></div><a class="btn line" href="https://maps.app.goo.gl/PTEWyUyP9gKkPRDW9?g_st=com.google.maps.preview.copy" target="_blank" rel="noopener" aria-label="Directions to RAF Zed Park"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>Directions</a></div>
+<div class="brow"><img src="img/photo-02.jpg" alt="RAF storefront" width="200" height="130" loading="lazy"><div><h3>Arabella</h3><p>Arabella Plaza Mall, New Cairo</p></div><a class="btn line" href="https://maps.app.goo.gl/kkiCXbD1SZbp9gvc9?g_st=iw" target="_blank" rel="noopener" aria-label="Directions to RAF Arabella"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>Directions</a></div>
+<div class="brow"><img src="img/photo-08.jpg" alt="RAF storefront" width="200" height="130" loading="lazy"><div><h3>KOV Mall</h3><p>KOV Mall, New Cairo</p></div><a class="btn line" href="https://maps.app.goo.gl/p1Vdpnx9SvE4T423A?g_st=com.google.maps.preview.copy" target="_blank" rel="noopener" aria-label="Directions to RAF KOV Mall"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>Directions</a></div>
 </div>
 <div class="cta-row" style="margin-top:22px"><a class="btn" href="branches.html">All five branches</a></div></div></section>
 </main>
 <footer><div class="wrap">
-<img src="img/raf-mark-white.png" alt="RAF Specialty Coffee" width="51" height="38">
+<img src="img/raf-mark-plaster.svg" alt="RAF Specialty Coffee" width="62" height="40">
 <div>Zed Park (Sheikh Zayed) &middot; Arabella (New Cairo) &middot; KOV Mall (New Cairo) &middot; Almaza (Heliopolis) &middot; Maadi</div>
 <div><a href="https://www.instagram.com/rafcoffee.eg/" target="_blank" rel="noopener">@rafcoffee.eg on Instagram</a></div>
 <div class="prev">An initial website idea by Ahmed Fakhreldin, drawn from RAF's Instagram posts and logo. Not the official RAF website. Photos are from RAF's public feed.</div>
